@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyBluetoothActivity.java</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="on">BlueToothOn</string>
+    <string name="off">BlueToothOff</string>
+    <string name="scan">Scan</string>
+    <string name="paired">Paired Devices</string>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Send" 
+        android:onClick="Sendr"/>
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+       	android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/display"
+        android:text="ListHost"/>
+
+</RelativeLayout>
